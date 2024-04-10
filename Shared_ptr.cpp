@@ -33,7 +33,7 @@ int main(void)
 {
 	std::shared_ptr<Treal> ptr(new Treal(100,200));
 	ptr->DisplayOutput();
-	std::shared_ptr<Treal> ptr2(ptr); // ptr conn't be copied into ptr2
+	std::shared_ptr<Treal> ptr2(ptr); 
 	ptr2->DisplayOutput();
 	return 0;
 }

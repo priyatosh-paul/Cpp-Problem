@@ -1,14 +1,14 @@
 #include<iostream>
 using namespace std;
 
-/*int foo()
-{
-	return 9;
-}
-char foo()
-{
-	reurn 'a';
-}*/
+// /int foo()
+// {
+// 	return 9;
+// }
+// char foo()
+// {
+// 	reurn 'a';
+// }
 
 void fun(int a)
 {
@@ -23,7 +23,7 @@ void fun(long int a)
 int main(void)
 {
 	fun(5);
-	//foo();
+	// foo();
 	return 0;
 
 }
