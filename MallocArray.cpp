@@ -1,5 +1,6 @@
 #include<iostream>
-using namespace std;int main(void)
+using namespace std;
+int main(void)
 {
 int *num=NULL;
 int size=5;

@@ -26,11 +26,11 @@ int main(void)
 {
 	int result=0;
 	result=sum(10,20);
-cout<<result<<endl;
-	result=static_cast<int>sum(10,20,30);
-cout<<result<<endl;
-	result=static_cast<int>sum(10,20,30, 40);
-cout<<result<<endl;
+    cout<<result<<endl;
+	result=sum(10,20,30);
+	cout<<result<<endl;
+	result=sum(10,20,30, 40);
+	cout<<result<<endl;
 	//result=sum(10,20,30,40);
 //cout<<result<<endl;
 	return 0;
